@@ -71,6 +71,13 @@ Match the repository you are editing, not your own conventions:
 
 Both repositories close a pull request after **two weeks** without a contributor response. Do not open one you cannot watch.
 
+## JavaScript defects
+
+Magento's JS unit layer (`dev/tests/js/jasmine`) needs a full `package.json.sample`
+npm + grunt build before it runs a single spec. There is a cheaper harness that
+exercises the real module, and a trunk-equality check that licenses using it.
+See [`references/js-defects.md`](references/js-defects.md).
+
 ## Environment
 
 Building the checkout has its own set of traps, none of them interesting and all of them expensive. They are in [`references/environment.md`](references/environment.md) — read it once before the first build rather than discovering them one at a time.
