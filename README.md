@@ -37,3 +37,7 @@ Everything asserted was measured against `magento/magento2@2.4-develop` and `mag
 ## Licence
 
 MIT — see [LICENSE](LICENSE).
+
+---
+
+More Magento modules and write-ups: [brocode.at](https://brocode.at/modules/)
